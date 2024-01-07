@@ -11,13 +11,13 @@
   text-align: center;
   border-radius: 6px;
   color: #ffffff;
-  background-image: url("./resources/Banner\ Image.png");
-  /* background-image: linear-gradient(
+  /* background-image: url("./resources/Banner\ Image.png"); */
+  background-image: linear-gradient(
       to bottom,
       rgba(7, 3, 17, 1),
       rgba(255, 255, 255, 1)
     ),
-    url("images/background.jpg"); */
+    url("./resources/Banner\ Image.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -68,6 +68,18 @@ margin-top: 10px;
 #party-button:hover{
   background-color: #7e6a1b;
 
+}
+#party-location{
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 32px;
+  background-image:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+h1>span{
+  color: #f00;
 }
 offer-image {
   height: 500px;
