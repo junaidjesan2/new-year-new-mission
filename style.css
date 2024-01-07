@@ -1,38 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
+#banner {
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+  text-align: center;
+  border-radius: 6px;
+  color: #ffffff;
+  background-image: url("./resources/Banner\ Image.png");
+  /* background-image: linear-gradient(
+      to bottom,
+      rgba(7, 3, 17, 1),
+      rgba(255, 255, 255, 1)
+    ),
+    url("images/background.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#banner-title {
+  padding: 177px;
+  width: 632px;
+}
+#banner-title1 {
+  font-size: 32px;
+}
+#banner-title2 {
+  font-size: 72px;
+}
+#discount {
+  margin: auto;
+  height: 806px;
+  width: 802px;
+}
+#discount1 {
+    align-content: center;
+    margin-left: 608px;
+    margin-right: 608px;
+    background-color: rgb(13, 66, 49);
+}
+offer-image{
+    height: 500px;
+}
 footer {
   background-color: #070211;
-  color:#FFFFFF;
-
+  color: #ffffff;
+  margin: auto;
   height: 609px;
   width: 1600px;
 }
 
-footer > hr{
-    width: 1320px;
-    margin: auto;
+footer > hr {
+  width: 1320px;
+  margin: auto;
 }
 
-#copyright{
-    display: flex;
+#copyright {
+  display: flex;
 }
 
-#address{
-    width: 1185px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 32px;
-    margin: auto;
+#address {
+  width: 1185px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 32px;
+  margin: auto;
 }
-#location{
-    width: 375px;
+#location {
+  width: 375px;
 }
-#copyright{
-    display: flex;
-    justify-content: space-between;
-    width: 1185px;
-    margin: auto;
+#copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 1185px;
+  margin: auto;
 }
