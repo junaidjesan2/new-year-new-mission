@@ -37,13 +37,40 @@
   width: 802px;
 }
 #discount1 {
-    align-content: center;
-    margin-left: 608px;
-    margin-right: 608px;
-    background-color: rgb(13, 66, 49);
+  text-align: center;
 }
-offer-image{
-    height: 500px;
+#welcome-party {
+  width: 1320px;
+  margin-top: 120px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 120px;
+  padding-left: 120px;
+  color: #ffffff;
+  height: 600px;
+  background-image: url("./resources/Vectorrr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+#party-button {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  border: none;
+margin-top: 10px;
+  border-radius: 10px;
+  background-color: #b69926;
+  
+}
+#party-button:hover{
+  background-color: #7e6a1b;
+
+}
+offer-image {
+  height: 500px;
 }
 footer {
   background-color: #070211;
