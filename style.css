@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+  background-color: #070211;
+  color:#FFFFFF;
+
+  height: 609px;
+  width: 1600px;
+}
+
+footer > hr{
+    width: 1320px;
+    margin: auto;
+}
+
+#copyright{
+    display: flex;
+}
+
+#address{
+    width: 1185px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    margin: auto;
+}
+#location{
+    width: 375px;
+}
+#copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 1185px;
+    margin: auto;
+}
