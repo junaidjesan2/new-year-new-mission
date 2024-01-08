@@ -5,9 +5,7 @@
 #banner {
   width: 1320px;
   height: 600px;
-  margin-top: 50px;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin: 50px auto;
   text-align: center;
   border-radius: 6px;
   color: #ffffff;
@@ -38,10 +36,7 @@
 }
 #welcome-party {
   width: 1320px;
-  margin-top: 120px;
-  margin-left: 140px;
-  margin-right: 140px;
-  margin-bottom: 120px;
+  margin: 120px auto;
   padding-left: 120px;
   color: #ffffff;
   height: 600px;
@@ -60,6 +55,7 @@
   margin-top: 10px;
   border-radius: 10px;
   background-color: #b69926;
+  color: #ffffff;
 }
 #party-button:hover {
   background-color: #7e6a1b;
@@ -89,6 +85,24 @@ h1 > span {
   align-items: center;
   margin: auto;
 }
+#holiday-sale{
+  width: 1320px;
+  margin: 0 auto;
+}
+#holiday-sale-image{
+  background-image: url("./resources/Rectangle\ 1.png"), url("./resources/Rectangle\ 2.png");
+  background-position: right top, left bottom;
+  background-size: 429px 433px,1320px 229px;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px;
+}
+#subscribe{
+  width: 1320px;
+  height: 616px;
+  margin: 120px auto;
+  background-color: rgba(255, 0, 0, 0.05);
+  justify-content: center;
+}
 offer-image {
   height: 500px;
 }
@@ -102,8 +116,7 @@ footer {
 }
 
 footer > hr {
-  width: 1320px;
-  margin: auto;
+  margin: 50px 140px;
 }
 
 #copyright {
@@ -125,4 +138,5 @@ footer > hr {
   justify-content: space-between;
   width: 1185px;
   margin: auto;
+  font-size: 24px;
 }
