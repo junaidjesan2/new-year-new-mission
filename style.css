@@ -40,7 +40,8 @@
   padding-left: 120px;
   color: #ffffff;
   height: 600px;
-  background-image:linear-gradient(to left, rgba(255, 0, 0, 0) 10%, black), url("./resources/Vectorrr.png");
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0) 10%, black),
+    url("./resources/Vectorrr.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -85,18 +86,19 @@ h1 > span {
   align-items: center;
   margin: auto;
 }
-#holiday-sale{
+#holiday-sale {
   width: 1320px;
   margin: 0 auto;
 }
-#holiday-sale-image{
-  background-image: url("./resources/Rectangle\ 1.png"), url("./resources/Rectangle\ 2.png");
+#holiday-sale-image {
+  background-image: url("./resources/Rectangle\ 1.png"),
+    url("./resources/Rectangle\ 2.png");
   background-position: right top, left bottom;
-  background-size: 429px 433px,1320px 229px;
+  background-size: 429px 433px, 1320px 229px;
   background-repeat: no-repeat, no-repeat;
   padding: 15px;
 }
-#subscribe{
+#subscribe {
   width: 1320px;
   height: 616px;
   margin: 120px auto;
@@ -109,10 +111,10 @@ offer-image {
 footer {
   background-color: #070211;
   color: #ffffff;
-  margin: auto;
-  height: 609px;
+  height: 489px;
   width: 1600px;
-  padding-top: 119px;
+  margin: auto;
+  padding-top: 120px;
 }
 
 footer > hr {
@@ -126,6 +128,7 @@ footer > hr {
 #address {
   width: 1185px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   font-size: 32px;
   margin: auto;
